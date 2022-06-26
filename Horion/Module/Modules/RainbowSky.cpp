@@ -1,11 +1,11 @@
 #include "RainbowSky.h"
 
-RainbowSky::RainbowSky() : IModule(0, Category::VISUAL, "Makes your sky look rainbow!") {
+RainbowSky::RainbowSky(true) : IModule(0, Category::VISUAL, "Makes your sky look rainbow!") {
 }
 
-RainbowSky::~RainbowSky() {
+RainbowSky::~RainbowSky(true) {
 }
 
-const char* RainbowSky::getModuleName() {
-	return ("RainbowSky");
+const char* RainbowSky::getModuleName(true) {
+	return ("RainbowSky?");
 }
